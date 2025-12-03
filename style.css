@@ -12,6 +12,10 @@
     --pages-bg-and-other: rgba(255, 255, 255, 1);
 }
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -26,6 +30,7 @@ a {
 
 body {
     background-color: var(--html-bg-color);
+    overflow-x: hidden;
 }
 
 header {
@@ -138,6 +143,7 @@ footer {
 
 .bestsellers-section {
     margin-top: 80px;
+    position: relative;
 }
 
 .bestsellers-title-n-slider {
@@ -170,6 +176,29 @@ footer {
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,1fr);
     gap: 40px;
+}
+
+.bestseller-stroke1 {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: -150px;
+    top: 290px;
+    z-index: 2;
+
+    cursor: pointer;
+}
+
+.bestseller-stroke2 {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: -150px;
+    top: 290px;
+    z-index: 2;
+    transform: rotate(180deg);
+
+    cursor: pointer;
 }
 
 .sale {
