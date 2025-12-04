@@ -200,3 +200,244 @@
         letter-spacing: 1px;
     }
 }
+
+@media (max-width: 390px) {
+    .header-section {
+        padding: 0px 20px;
+    }
+
+    .nav-bar-menu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main-bunner-section {
+        height: 744px;
+        padding: 100px 20px;
+        background-position-x: -270px;
+    }
+
+    .main-bunner-text-svg {
+        width: 350px;
+    }
+
+    .bestsellers-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .bestseller-page {
+        width: 350px;
+        height: 500px;
+        gap: 20px;
+    }
+
+    .slider-active {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slider-unactive {
+        width: 7px;
+        height: 7px;
+    }
+
+    .bestsellers-slider {
+        align-items: center;
+    }
+
+    .geverly {
+        width: 330px;
+        height: 290px;
+    }
+
+    .geverly-overall {
+        flex-direction: column;
+    }
+    
+    .geverly-name {
+        width: 300px;
+    }
+
+    .bestseller-stroke2 {
+        width: 30px;
+        height: 30px;
+        right: -1px;
+        top: 1670px;
+    }
+
+    .bestseller-stroke1 {
+        width: 30px;
+        height: 30px;
+        left: -1px;
+        top: 1670px
+    }
+
+    [class^="collection-page"] {
+        width: 117px;
+        height: 214px;
+        padding: 10px 5px;
+    }
+
+    .collection-text {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    footer {
+        height: 700px;
+    }
+
+    .footer-more-info {
+        padding: 0px 20px;
+    }
+
+    .navigation-section {
+        padding: 50px 20px;
+    }
+
+    .sentences-container {
+        gap: 0px;
+        flex-wrap: nowrap;
+    }
+
+    .footer-opascity-sentenses {
+        width: 175px;
+    }
+
+    .footer-instagram-container {
+        margin-right: 0px;
+    }
+
+    .footer-inst-pics {
+        gap: 20px;
+    }
+
+    .more-inst {
+        font-size: 16px;
+        letter-spacing: 2.5px;
+    }
+
+    .fin-section {
+        margin-top: 20px;
+        padding: 0px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .fin-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-logo {
+        width: 118px;
+    }
+
+    .header-section {
+        padding: 0px 11px;
+    }
+
+    .main-bunner-section {
+        height: 568px;
+        background-position-x: -200px;
+        padding: 50px 11px;
+    }
+
+    .main-bunner-text-svg {
+        width: 298px;
+    }
+
+    .main-bun-btn {
+        font-size: 20px;
+    }
+
+    .bestseller-title {
+        font-size: 20px;
+    }
+
+    .bestseller-page {
+        width: 300px;
+        height: 480px;
+    }
+
+    .geverly {
+        width: 280px;
+        height: 260px;
+    }
+
+    .geverly-name {
+        width: 280px;
+    }
+
+    .bestseller-stroke2 {
+        right: -1px;
+        top: 1600px;
+    }
+
+    .bestseller-stroke1 {
+        left: -1px;
+        top: 1600px
+    }
+
+    .collection-title {
+        font-size: 20px;
+    }
+
+    [class^="collection-page"] {
+        width: 100px;
+        height: 227px;
+        padding: 5px 5px;
+    }
+
+    .collection-text {
+        font-size: 10px;
+        width: 90px;
+    }
+
+    footer {
+        height: 807px;
+    }
+
+    .navigation-title {
+        font-size: 20px;
+    }
+
+    .navigation-section {
+        padding: 45px 11px;
+    }
+
+    .sentences-container {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer-opascity-sentenses {
+        width: 100%;
+    }
+
+    .footer-sentenses {
+        width: 100%;
+    }
+
+    .footer-instagram-container {
+        height: 190px;
+    }
+
+    .more-inst {
+        text-align: center;
+    }
+
+    .footer-inst-pics {
+        gap: 0px;
+    }
+
+    .footer-more-info {
+        padding: 0px 11px;
+    }
+
+    .fin-section {
+        padding: 0px 11px;
+    }
+}

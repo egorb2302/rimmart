@@ -94,6 +94,16 @@ footer {
     gap: 30px;
 }
 
+.header-icons {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header-icons:hover {
+    filter: drop-shadow(1px 1px 1px var(--sale-check-bg));
+}
+
 .lang-switcher {
     color: var(--haeder-and-footer-text-color);
     font-size: 24px;
